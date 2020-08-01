@@ -9,24 +9,72 @@
 <body>
     <section id="page">
         <div class="container">
-            <nav class="navigation">
-                <a href="#" class="navigation__link">Biography</a>
-                <a href="#" class="navigation__link">Photography</a>
-                <a href="#" class="navigation__link">Contact</a>
-                <a href="#" class="navigation__link">Journal</a>
-                <a href="#" class="navigation__link">Instagram</a>
+            <input class="radio" id="biography" name="group" type="radio" checked>
+            <input class="radio" id="photography" name="group" type="radio">
+            <input class="radio" id="contact" name="group" type="radio">
+            <input class="radio" id="journal" name="group" type="radio">
+            <input class="radio" id="instagram" name="group" type="radio">
+            <nav class="menu">
+                <label class="menu-link" id="biography-link" for="biography">Biography</label>
+                <label class="menu-link" id="photography-link" for="photography">Photography</label>
+                <label class="menu-link" id="contact-link" for="contact">Contact</label>
+                <label class="menu-link" id="journal-link" for="journal">Journal</label>
+                <label class="menu-link" id="instagram-link" for="instagram">Instagram</label>
             </nav>
-            <div class="offer">
-                <h1 class="offer__title">
-                    Alberta
-                </h1>
-                <p class="offer__text">
-                    Reynisfjara black sand beach is the most famous beach 
-                    on the South Coast of Iceland. Its beautiful black sand,
-                    powerful waves, and the nearby Reynisdrangar sea stacks 
-                    make Reynisfjara a truly unique place to visit and a popular
-                    filming location.
-                </p>
+            <div class="panels">
+                <div class="panel" id="biography-panel">
+                    <h1 class="panel__title">
+                        Alberta
+                    </h1>
+                    <p class="panel__text">
+                        Reynisfjara black sand beach is the most famous beach 
+                        on the South Coast of Iceland. Its beautiful black sand,
+                        powerful waves, and the nearby Reynisdrangar sea stacks 
+                        make Reynisfjara a truly unique place to visit and a popular
+                        filming location.
+                    </p>
+                </div>
+                <div class="panel" id="photography-panel">
+                    <div class="gallery">
+                        <img src="/img/photo1.png" alt="#">
+                        <img src="/img/photo2.png" alt="#">
+                        <img src="/img/photo3.png" alt="#">
+                    </div>
+                    <div class="gallery">
+                        <img src="/img/photo4.png" alt="#">
+                        <img src="/img/photo5.png" alt="#">
+                        <img src="/img/photo6.png" alt="#">
+                    </div>
+                </div>
+                <div class="panel" id="contact-panel">
+                    <h1 class="panel__title">
+                        Contact
+                    </h1>
+                    <p class="panel__text">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="panel" id="journal-panel">
+                    <h1 class="panel__title">
+                        Journal
+                    </h1>
+                    <p class="panel__text">
+                        Notes go here
+                    </p>
+                </div>
+                <div class="panel" id="instagram-panel">
+                    <h1 class="panel__title">
+                        Insta
+                    </h1>
+                    <a href="https://www.instagram.com/kaikispin/">
+                        link
+                    </a>
+                </div>
             </div>
             <div class="copyright">
                 <p>Italy</p>
