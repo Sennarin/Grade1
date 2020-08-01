@@ -148,7 +148,7 @@ h1 {
 }
 
 #photography:checked ~ .menu {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #biography:checked ~ .menu #biography-link,
